@@ -21,20 +21,57 @@ Add your timetable using `<td>` tag.
 
 ## STEP 6
 Execute the program using runserver command.
-
-# PROGRAM
+#PROGRAM
 ```
 <html>
 <head>
-<tittle>Slot Time Table </tittle>
+<tittle> </tittle>
 </head>
+<style>
+   jpg {
+    border-radius: 20px;
+    font-weight:bold;
+    }
+    h1{
+    font-size:20px; 
+    font-size:bold;
+    color:blue
+    
+    }
+    python progaramming{
+    font-size:20px; 
+    color:aqua
+    }
+    Web application{
+        font-size:20px;
+        color:cyan;
+        
+    }
+    Mentor meet{
+        font-size:20px;
+        color:cyan;
+    }
+    time{
+        font-size:20px;
+        color:red
+    }
+    Free slot{
+        font-size: 20px;
+        color:lime
+    }
+    
+
+</style>
 <body>
-<center>
-<img src="WhatsApp Image 2025-09-25 at 17.34.58_40845b57.jpg" height="100" width="550">
-</center>
+<jpg><center>
+<img src="Screenshot (38).png" height="100" width="550">
+</center></jpg>
+
+<P><table align="center" width="700"  height="300"cellspacing="2" cellpadding="4" border="5" bgcolor="cyan">
+
+<h1 align="center" font-size="bold"><br>Slot Time Table Jegan P-(25017588)</br></h1>
+
 <br>
-<table align="center" width="550" cellspacing="2" cellpadding="4" border="5" bgcolor="cyan">
-<caption align="center"><b>Slot Time Table Jegan P-(25017588)</b></caption>
 <tr align="centre">
     <th bgcolor="red">Timing</th>
     <th bgcolor="blue">Monday</th>
@@ -46,20 +83,20 @@ Execute the program using runserver command.
      
 <tr align="center">
     <td bgcolor="red">8-10</td>
-    <td bgcolor="White"></td>
-    <td>Web</td>
-    <td bgcolor="White"></td>
-    <td bgcolor="White"></td>
+    <td bgcolor="White">Free slot</td>
+    <td>Web application</td>
+    <td bgcolor="White">Free slot</td>
+    <td bgcolor="White">Free slot</td>
     <td>Python Programming</td>
-    <td>Web</td>
+    <td>Web application</td>
 </tr>
 
 <tr align="center">
     <td bgcolor="red">10-12</td>
-    <td>Web</td>
+    <td>Web application</td>
     <td>Python Programming</td>
-    <td bgcolor="White"></td>
-    <td bgcolor="White"></td>
+    <td bgcolor="White">Free slot</td>
+    <td bgcolor="White">Free slot</td>
     <td>Python Programming</td>
     <td>Python Programming</td>
 </tr></br>
@@ -69,31 +106,33 @@ Execute the program using runserver command.
 
 </tr>
     
-<br><tr align="center">
+<tr align="center">
     <td bgcolor="red">1-3</td>
-    <td bgcolor="White"></td>
-    <td>Web</td>
+    <td bgcolor="White">Free slot</td>
+    <td>Web application</td>
     <td>Mentor Meet</td>
-    <td bgcolor="White"></td>
-    <td>Web</td>
-    <td bgcolor="White"></td>
+    <td bgcolor="White">Free slot</td>
+    <td>Web application</td>
+    <td bgcolor="White">Free slot</td>
 </tr>
     
 <tr align="center">
     <td bgcolor="red">3-5</td>
-    <td bgcolor="White"></td>
-    <td bgcolor="White"></td>
+    <td bgcolor="White">Free slot</td>
+    <td bgcolor="White">Free slot</td>
     <td>Python Programming</td>
-    <td bgcolor="White"></td>
-    <td bgcolor="White"></td>
-    <td bgcolor="White"></td>
-</tr></br>
+    <td bgcolor="White">Free slot</td>
+    <td bgcolor="White">Free slot</td>
+    <td bgcolor="White">Free slot</td>
+</tr>
 </body>
 </html>
 
+
 ```
 # OUTPUT
-![alt text](<Screenshot (41).png>)
+<img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/b3461578-2cbe-4c7b-8afe-19bf63f36f0e" />
+
 
 # RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
